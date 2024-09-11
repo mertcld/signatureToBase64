@@ -1,0 +1,17 @@
+body {
+    background-color: #f0f0f0;
+}
+
+canvas {
+    cursor: crosshair;
+}
+
+#base64Output::after {
+    content: '...';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 0 5px;
+}
